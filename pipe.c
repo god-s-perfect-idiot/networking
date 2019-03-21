@@ -40,7 +40,7 @@ int main(){
 		
 	}
 	else{
-		sleep(1);
+		sleep(3);
 		close(pipe_end[1]);
 		read(pipe_end[0],output_str,100);
 		close(pipe_end[0]);
